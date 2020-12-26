@@ -1,7 +1,9 @@
 ---
-title: 'Our Difference'
+title: 'About myself'
 button: 'About us'
 weight: 2
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Ipsum dolor sit amet, et essent mediocritatem quo.
+<!-- ## Please see the about me page -->
+If You have a cool open souce robotics project in mind and want some help in the development of it.
+## Please contact me at : pk12@pm.me 

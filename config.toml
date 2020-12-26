@@ -1,9 +1,9 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseurl = "https://example.com/"  # Include trailing slash
-title = "Clarity"
-author = "Jane Doe"
-copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+baseurl = "https://pranav083.github.io"  # Include trailing slash
+title = "Namaste"
+author = "Pranav Kumar"
+copyright = "Copyright © 2016–2021, Pranav Kumar; all rights reserved."
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
@@ -43,14 +43,14 @@ series = "series"
     tabWidth = 2
 
 [params]
-author = "Jane Doe"
-twitter = "@janedoe"
-largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+author = "Pranav Kumar"
+twitter = "@pranav083"
+largeTwitterCard = true # set to true if you want to show a large twitter card image. The default is a small twitter card image
+introDescription = "Robotics, Open Source, Learner"
 # description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 
 # Google analytics Id
-ga_analytics = "XXXXXXXXXX"
+# ga_analytics = "XXXXXXXXXX"
 
 # Baidu analytics Id
 # baidu_analytics = "XXXXXXXX"
@@ -76,7 +76,7 @@ mainSections = ["post"] # see config details here https://gohugo.io/functions/wh
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
 
-logo = "logos/logo.png"
+logo = "logos/logos.jpg"
 
 # Label Non inline images on an article body
 figurePositionShow = false # toggle on or off globally
@@ -96,7 +96,7 @@ enforceLightMode = false
 # enforceDarkMode = false
 
 # Text for the languages menu.
-languageMenuName = "🌐"
+# languageMenuName = "🌐"
 
 # Title separator, default to |.
 # titleSeparator = "|"

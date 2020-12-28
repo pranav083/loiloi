@@ -1,28 +1,28 @@
-[[main]]
-  name = "Início"
-  url = ""
-  weight = -110
+# [[main]]
+#   name = "Início"
+#   url = ""
+#   weight = -110
 
 # [[main]]
 #   name = "Arquivos"
-#   url = "post/rich-content/"
+#   url = "old_post/markdown-syntax"
 #   weight = -109
 
-# Submenus are done this way: parent -> identifier
-[[main]]
-  name = "Links"
-  identifier = "Links"
-  weight = -108
-[[main]]
-  parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
-[[main]]
-  parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
+# # Submenus are done this way: parent -> identifier
+# [[main]]
+#   name = "Links"
+#   identifier = "Links"
+#   weight = -108
+# [[main]]
+#   parent = "Links"
+#   name = "LinkedIn"
+#   url = "https://www.linkedin.com/"
+# [[main]]
+#   parent = "Links"
+#   name = "Twitter"
+#   url = "https://twitter.com/"
 
-[[main]]
-  name = "Sobre"
-  url = "about/"
-  weight = -107
+# [[main]]
+#   name = "Sobre"
+#   url = "about/"
+#   weight = -107

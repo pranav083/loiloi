@@ -141,3 +141,14 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 #### H4
 ##### H5
 ###### H6
+ 
+ #### Emoji support 
+<p>
+<span class="nowrap"><span class="emojify">🙈</span> 
+<code>:see_no_evil:</code></span>  
+
+<span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span> 
+
+<span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span>
+</p>
+<br>

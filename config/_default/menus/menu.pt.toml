@@ -5,7 +5,7 @@
 
 # [[main]]
 #   name = "Arquivos"
-#   url = "old_post/markdown-syntax"
+#   url = "2020/markdown-syntax"
 #   weight = -109
 
 # # Submenus are done this way: parent -> identifier

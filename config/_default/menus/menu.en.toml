@@ -2,12 +2,24 @@
   name = "Home"
   url = ""
   weight = -110
-
+[[main]]
+  name = "Gallery"
+  url = "2020/update"
+  weight = -108
 [[main]]
   name = "Archives"
-  url = "old_post/markdown-syntax"
+  identifier = "Archives"
   weight = -109
-
+[[main]]
+  parent = "Archives"
+  name = "2020"
+  url = "2020/markdown-syntax"
+  weight = -112 
+[[main]]
+  parent = "Archives"
+  name = "2021"
+  url = "post/lvgl_esp32_setup"
+  weight = -111  
 # Submenus are done this way: parent -> identifier
 [[main]]
   name = "Links"

@@ -6,6 +6,7 @@ description = "my first blog post"
 tags = [
   "Myself", "Beagleboard", "project"
 ]
+thumbnail = "images/sun.svg"
 +++
 
 A developer looking forward the ways in the field of  open source embedded Linux development.I am basically a embedded firmware developer who is working on the integration of micro controller with the micro processors (mainly Arm series) for now mainly on the Linux kernel based interfacing of system with the controller.  

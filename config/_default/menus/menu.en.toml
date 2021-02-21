@@ -33,7 +33,10 @@
   parent = "Links"
   name = "Twitter"
   url = "https://twitter.com/pranav083"
-
+[[main]]
+  parent = "Links"
+  name = "Resume"
+  url = "https://drive.google.com/file/d/1Z61ZhJWqCK8pFAiZJzSlyzumnD83A6BH/view"
 [[main]]
   name = "About"
   url = "about/"

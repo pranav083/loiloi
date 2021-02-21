@@ -2,17 +2,17 @@
 title: "LVGL hardware button setup"
 date: 2021-02-15T14:27:35+05:30
 draft: false
-description : "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+description : "showing setup of esp32 lvgl and hardware button"
 featured : true
 tags : [
-    "esp32","lvgl","arduino","platformIO","button"
+    "esp32","lvgl","platformIO","button"
 ]
 categories : [
     "Project",
 ]
 series : ["Setup Guide"]
 aliases : ["lvgl-arduino-esp32-setup"]
-thumbnail : "images/esp32.png"
+thumbnail : "images/lvgl_hardware_button_setup/logo.png"
 ---
 # Arduino Esp32 LVGL lv_arduino Hardware_button st7735s
 
@@ -24,8 +24,9 @@ This setup guide is made using the following hardware and software
 3. USB Cable to upload the code
 4. Jumper Cable (Male to Male)
 5. BreadBoard
+6. Push button or Capacitive touch button
 
-**Software Used in the project**
+**Software Used in the project :**
 1. [PlatformIO](https://platformio.org/install/ide?install=vscode)
 2. [Vscode](https://code.visualstudio.com/download)
 3. [esp32 Framework:](https://github.com/espressif/arduino-esp32) Arduino
@@ -41,11 +42,11 @@ It is easier to download the required library from the platformIO library sectio
 <!-- put the link of setup guide lvgl esp32 -->
 #### Introduction:
 
-The main aim of this project is to able to run the LVGL library on the st7735s 128 x 160 TFT display with using esp32 and configure multiple button input from the different GPIO of the ESP32 and pass that data command to the screen fuctionality. I am driving my system in the landscape mode you can go with portrait mode also but you to configure the setting properly. If faces any problen on the screen setup go to the previous guide of lvgl screen setup[put the link](put-the-link) .
+The main aim of this project is to able to run the LVGL library on the st7735s 128 x 160 TFT display with using esp32 and configure multiple button input from the different GPIO of the ESP32 and pass that data command to the screen fuctionality. I am driving my system in the landscape mode you can go with portrait mode also but you to configure the setting properly. If faces any problen on the screen setup go to the previous guide of lvgl screen [**Setup**](.././lvgl_esp32_setup).
 In this setup , I have put total of 8 button from the esp32 which are both input and touch configurable in the esp32 board
 
-**Earlier Tested** : 1. Earlier i tested the blog for setting and registring the button on the lvgl, from this [Guide](https://blog.lvgl.io/2019-01-08/hardware-button) **some functions depriciated** in the guide. 
-2. But unforunately that guide have setup defined on the stm32 board and also itis for the older version of the lvgl and some of the fuction are depriciated in the newer version of the lvgl.
+**Earlier Tested** : 1. Earlier I tested the blog for setting and registring the button on the lvgl, from this [Guide](https://blog.lvgl.io/2019-01-08/hardware-button) **some functions depriciated** in the guide. 
+1. But unforunately that guide have setup defined on the stm32 board and also itis for the older version of the lvgl and some of the fuction are depriciated in the newer version of the lvgl.
 
 ### putting the Setup 
 
@@ -285,6 +286,6 @@ This is some other example running :
 3. lvgl  event handler [guide](https://docs.lvgl.io/latest/en/html/overview/event.html#send-events-manually) 
    
 #### Help in improving the guide 
-Thanks for the Futuristic Labs Pvt. Ltd. for providing me the resources of the project.  
-Please if you find any useful improvement feel free to contact at : @pranav083  
+Thanks Futuristic Labs Pvt. Ltd. for providing me the resources of the project.  
+Please if you find any useful improvement feel free to contact at : [@pranav083](https://twitter.com/pranav083) or comment below.
 

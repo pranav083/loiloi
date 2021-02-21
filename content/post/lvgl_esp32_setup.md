@@ -12,21 +12,21 @@ categories : [
 ]
 series : ["Setup Guide"]
 aliases : ["lvgl-arduino-esp32-setup"]
-thumbnail : "images/esp32.png"
+thumbnail : "images/lvgl_esp32_setup/logo.png"
 ---
 
 # Arduino Esp32 LVGL lv_arduino lv_examples st7735s
 
 This setup guide is made using the following hardware and software
 
-**Hardware Components And Supplies :-**
+**Hardware Components And Supplies :**
 1. [Esp32 Dev Module](https://components101.com/sites/default/files/component_pin/ESP32-Pinout.png)
 2. ST7735s 1.8" TFT Display 128 x 160
 3. USB Cable to upload the code
 4. Jumper Cable (Male to Male)
 5. BreadBoard
 
-**Software Used in the project**
+**Software Used in the project :**
 1. [PlatformIO](https://platformio.org/install/ide?install=vscode)
 2. [Vscode](https://code.visualstudio.com/download)
 3. [esp32 Framework:](https://github.com/espressif/arduino-esp32) Arduino
@@ -223,6 +223,6 @@ lib_deps =
 ```
 ![](/images/lvgl_esp32_setup/11-02-2021-16-13-58.png "Wrong configuration")
 #### Help in improving the guide 
-Thanks for the Futuristic Labs Pvt. Ltd. for providing me the resources of the project.
-Please if you find any useful improvement feel free to contact at : @pranav083
+Thanks Futuristic Labs Pvt. Ltd. for providing me the resources of the project.
+Please if you find any useful improvement feel free to contact at : [@pranav083](https://twitter.com/pranav083) or comment below.
 
